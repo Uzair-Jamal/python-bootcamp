@@ -9,6 +9,8 @@ print(Days[0])
 
 Challenge="I will win"
 print(Challenge[7:10])
+print(Challenge[5:9])
+print(Challenge[::8])
 
 print(len(Challenge))
 
