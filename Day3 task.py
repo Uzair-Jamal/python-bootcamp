@@ -45,7 +45,7 @@ Checkbutton(window,text= "Female", variable=var2).grid(row = 13)
 Birthday_Months=['Jan','Feb','March','April','May','June','July','Aug','Sep','Oct','Nov','December']
 b=StringVar()
 dropdown = OptionMenu(window,b,*Birthday_Months)
-dropdown.config(width=18)
+dropdown.config(width=20)
 b.set('Select Month')
 dropdown.grid(row = 12,column = 1)
 
